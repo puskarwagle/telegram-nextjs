@@ -1,0 +1,125 @@
+/*Top Header component*/
+.TopHeader {
+  display: flex;
+  padding: 20px 10px 10px 10px;
+  background-color: #212f3c;
+}
+#hamburger, #RadhaGram, #search {
+  font-size: 30px;
+}
+#RadhaGram {
+  margin-left: 1rem;
+  font-size: 20px;
+}
+#search {
+  margin-left: auto;
+}
+#menu {
+  background-color: #E64A4A;
+  width: 60%;
+  height: 100%;
+  position: fixed;
+  top: -15px;
+  left: -100%;
+  color: #fff;
+}
+
+/* People Title Component */
+.PeopleTitle {
+  display: flex;
+  padding: 10px 10px 5px 10px;
+  height: 5.5%;
+  flex-direction: row;
+}
+.PeopleTitle #circle {
+  width: 54px;
+  height: 54px;
+  line-height: 54px;
+  border-radius: 50%;
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+  background: purple;
+  display: inline;
+  float: left;
+}
+.PeopleTitle #Ladli {
+  font-size: 18px;
+  font-weight: 500;
+  align-self: flex-start;
+  margin: 0.3rem 1rem 1rem 1rem;
+}
+#LastMsg {
+  color: gray;
+  margin: 1.8rem 1rem 1rem -3.4rem;
+}
+#BlueTick {
+  margin-left: auto;
+  margin-top: 0.5rem;
+}
+
+/* Side Menu Components */
+.SideMenuInactive {
+  width: 62%;
+  height: 100%;
+  background: none;
+  transform: translateX(-100%);
+  position: absolute;
+}
+.SideMenuActive {
+  position: absolute;
+  width: 62%;
+  height: 100%;
+  background-color: #1d2633;
+  font-weight:500;
+  overflow: hidden;
+  border-radius: 25px;
+  outline: 1px solid red;
+}
+.Profile {
+  height: 7.5rem;
+  padding: 1.6rem 1rem 0.5rem 1rem;
+  display: grid;
+  background-color: #212f3c;
+}
+.PicSun {display:flex;}
+#Sunny {font-size:1.6rem; margin-left:auto;}
+.NameArrow {
+	display:flex;
+	flex-direction:column;
+	padding-top:1rem;
+	font-size: 0.8rem;
+	color: gray;
+}
+.NameArrow #Name {font-size: 0.9rem;}
+.NameArrow #Arrow {
+	font-size:1.4rem;
+	margin-left:auto;
+	margin-top:-1.5rem;
+}
+#ProfilePic {
+  width: 4rem;
+  height: 4rem;
+  line-height: 4rem;
+  border-radius: 50%;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+  display: inline;
+  float: left;
+  outline: 1px dotted blue;
+}
+.MenuIcons {
+  display: inline-flex;
+  flex-direction: column;
+  height: 18em;
+  font-size: 1.5rem;
+  padding: 0.6rem 0rem 0.5rem 1rem;
+  justify-content: space-between;
+}
+.MenuIcons div span {
+  font-size: 1rem;
+  margin-left: 2rem;
+}

@@ -1,0 +1,16 @@
+html,
+body {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+main {
+  font-family: sans-serif;
+  height: 1000px;
+  border-radius: 25px;
+  background-color: #229ED9;
+  color: #ffffff;
+  outline: 2px solid red;
+  display:flex;
+  flex-direction: column;
+}

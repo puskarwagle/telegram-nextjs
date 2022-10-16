@@ -1,0 +1,138 @@
+.ChatMain {
+display: flex;
+flex-direction: column;
+height: 1000px;
+border-radius: 25px;
+overflow: hidden;
+background-image: url('../public/telegram.svg');
+background-size: contain; 
+outline: 2px solid red;
+}
+
+/* Chat Header */
+#ChatHeader {
+display: flex;
+padding: 1rem 1rem 0rem 1rem; 
+background-color: #1d2633;
+font-size:1.5rem;
+outline: 1px solid red;
+}
+#left {
+font-size: 1.5rem;
+}
+#ChatHeader #circle {
+width: 3rem;
+height: 3rem;
+line-height: 3rem;
+border-radius: 50%;
+font-size: 1rem;
+font-weight: 500;
+color: #fff;
+text-align: center;
+background: lightcoral;
+display: inline;
+float: left;
+margin: -0.7rem 0rem 0rem 2rem;
+}
+#ChatHeader #name {
+font-size: 1rem;
+font-weight: 500;
+margin: -0.5rem 1rem 0rem 1rem;
+align-self: flex-start;
+}
+#ChatHeader #lastseen {
+font-size: 0.9rem;
+font-weight: 450;
+color: grey;
+margin: 1.0rem 1rem .5rem -3.1rem;
+}
+#ChatHeader #PhoneMenu {
+  margin-left: auto;
+  display: flex;
+  gap: 1.8rem;
+}
+
+/* footer  footer footer fooooooooteeeeeeeeer*/
+.ChatFooter {
+display: flex;
+flex-direction: row;
+padding: 0.6rem 1rem 0.5rem 1rem;
+background-color: #1d2633;
+margin-top: auto;
+outline: 1px solid red;
+}
+.ChatFooter #gif {
+width: 2rem;
+height: 1.5rem;
+line-height: 1.5rem;
+border-radius: 15%;
+font-size: 1rem;
+font-weight: 500;
+color: white;
+text-align: center;
+border: 1px solid hsla(348, 0%, 77%, 1);
+display: inline;
+float: left;
+}
+.ChatFooter form {
+margin: 0 1rem;
+flex-grow: 2;
+}
+.ChatFooter input[type="text"] {
+font-size: 1.3em;
+background: transparent;
+border: none;
+}
+.ChatFooter input:focus {
+  outline:none;
+}
+.ChatFooter #material {
+font-size:1.5rem;
+margin-left: auto;
+display:flex;
+gap: 1rem;
+}
+
+/* Chat Menu Chatttttt Mmmmmmeeeenuuuuuuuu */
+.ChatMenu {
+	margin: 1.1rem 0.5rem 0rem auto;
+	border-radius: 8px;
+	font-size: 1.5rem;
+	width: 12.3rem;
+	overflow: hidden;
+	outline: 1px solid red;
+}
+.ChatMenu #top {
+	display: flex;
+	padding: 0.8rem 0.5rem 0.5rem 1.2rem;
+	background-color: #1d2633;
+}
+.ChatMenu #top span {
+	margin: 0.1rem 0rem 0rem 1.00rem;
+	font-size: 1rem;
+}
+.ChatMenu #top #right {
+	font-size: 1rem;
+	margin:0.2rem 0.2rem 0rem auto;
+}
+
+.ChatMenu #gap {
+height: 0.5rem;
+background-color:grey;
+}
+
+.ChatMenu #bottom {
+	display: flex;
+	flex-direction: column;
+	gap: 1.2rem;
+	padding: 1rem 0.7rem 1rem 1.2rem;
+	background-color: #1d2633;
+	font-size: 1.5rem;
+}
+.ChatMenu #bottom div {
+	display:flex;
+}
+.ChatMenu #bottom div span {
+	margin: .4rem 0rem 0rem 1.00rem;
+	font-size: 0.9rem;
+}
